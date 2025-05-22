@@ -1,58 +1,16 @@
-let x = 10;
-let y =3 ;
+function getRandomInt(min, max) {
+    return Math.random()*(max - min) + min;
+}
+console.log(getRandomInt(2, 5));
+
+Math.round(1.9);
+console.log(Math.round(1.9));
 
 
-// control /
-// // console.log(x+y);
-// console.log(x-y);
-// console.log(x*y);
-// console.log(x/y);
-// console.log(x%y);
-// console.log(x**y);
+console.log(Math.max(1, 2, 3))
 
-console.log(x++);
-console.log(x);
-console.log(y--);
-console.log(y);
+console.log(Math.min(1, 2, 3));
 
-x = x+5;
-x +=5;
-console.log(x);
-
-x=x*3;
-x*=3;
-console.log(x);
-
-let v = 1;
-console.log(v>0);
-console.log(v<1);
-
-console.log (x===1);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(Math.exp(3));
+console.log(Math.sqrt(4));
+console.log(Math.pow(2, 3));
